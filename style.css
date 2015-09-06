@@ -1,0 +1,223 @@
+/*
+Theme Name: Style Jewelry Factory
+Theme URI: https://themeisle.com/themes/plumbelt-lite/
+Author: ThemeIsle & Artem
+Author URI: http://vk.com/nevredimiy
+Description: PlumBelt is a free plumbing WordPress theme, can be used for any plumber business, lawyer, dentist, acupuncturist, cleaning, moving, paiting,housecleaning, furniture company, teaching company or other small business.
+Version: 1.3/1
+Template: chicago
+*/
+
+@import url(../chicago/style.css);
+
+#page{
+	margin: 0 auto;
+	width: 1080px;
+}
+
+#flagi{
+	height: 28px;
+}
+
+.site-banner{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.content-area {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    float: right;
+    margin-top: 30px;
+}
+
+.main-navigation {
+    background-color: #dcdcdc;
+ }
+
+ .site-branding{
+ 	height: 200px;
+ 	padding: 0 20px;
+ 	margin: 0 auto;
+ }
+
+ #logo{
+	float: left;
+	margin: 30px 0;
+	width: 320px;
+ }
+
+ #header-left{
+	text-align: center;
+	font-family: palatino, sans-serif;
+	font-size: 24px;
+	float: left;
+	margin: 60px 0 0;
+	width: 390px;
+ }
+
+#header-left p{
+	line-height: 0.3;
+}
+
+#header-right{
+	font-family: Arial, Tahoma, 'Droid Sans', sans-serif;
+	font-size: 13px;
+	float: right;
+	margin: 30px 0 0;
+	text-align: center;
+	width: 330px;
+}
+
+#header-right>p:first-child:after{
+	content: url('img/serebro-up-separated.jpg');
+
+}
+
+#header-right>p:first-child{
+	line-height: 0.9;
+	margin-bottom: 5px;
+}
+
+#header-right>p{
+	line-height: 0.3;
+}
+
+@font-face {
+ 
+font-family: palatino;
+src: url('fonts/palatino.eot');
+ 
+src: url('fonts/palatino.eot?#iefix') format('embedded-opentype'),
+ 
+url('fonts/palatino.woff') format('woff'),
+ 
+url('fonts/palatino.ttf') format('truetype'),
+ 
+url('fonts/palatino.svg#pf_din_text_cond_probold') format('svg');
+ 
+font-weight: normal;
+ 
+font-style: normal;
+ 
+}
+
+.site-header-image {
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    left: 0;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    z-index: -99;
+}
+
+
+@media screen and (max-width: 320px) {
+#page{
+	margin: 0 auto;
+	width: 100%;
+}
+
+#logo{
+	width: 100% !important;
+	margin: 0 auto;
+}
+
+#header-left{
+	margin: 0;
+	width: 100% !important;
+	font-size: 18px !important;
+ }
+ #header-right{
+	margin: 0;
+	width: 100% !important;
+	float: left;
+ }
+ .jivo-btn{
+ 	font-size: 10px;
+ 	width: 320px;
+ 	margin: 0;
+ }
+}
+
+@media screen and (max-width: 600px) {
+#page{
+	margin: 0 auto;
+	width: 100%;
+}
+
+#header-left{
+	margin-top: 0;
+	width: 100% !important;
+	font-size: 18px !important;
+ }
+ #header-right{
+	float: left;
+	margin: 0;
+	width: 100% !important;
+ }
+}
+
+@media screen and (max-width: 1024px) {
+
+#page{
+	margin: 0 auto;
+	width: 100%;
+}
+#logo{
+	width: 300px;
+}
+
+#header-left{
+	width: 345px;
+ }
+ #header-right{
+	float: right;
+	width: 290px;
+ }
+
+ .jivo-btn{margin: 18px 0 0 !important;}
+}
+
+.jivo-btn {   -webkit-box-sizing: border-box;   -moz-box-sizing: border-box;   box-sizing: border-box;   margin: 12px 0 0;   text-transform: none;   cursor: pointer;   background-image: none;   display: inline-block;   padding: 6px 12px;   margin-bottom: 0;   font-size: 14px;   font-weight: normal;   line-height: 1.428571429;   text-align: center;   vertical-align: middle;   cursor: pointer;   border: 0px;   border-radius: 4px;   white-space: nowrap;   -webkit-user-select: none;   -moz-user-select: none;   -ms-user-select: none;   -o-user-select: none;   user-select: none;}.jivo-btn:hover {   box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.2), inset 0 0 20px 10px rgba(255,255,255,0.3);   -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.2), inset 0 0 20px 10px rgba(255,255,255,0.3);   -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.2), inset 0 0 20px 10px rgba(255,255,255,0.3);}.jivo-btn.jivo-btn-light:hover{   box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.3), inset 0 0 20px 10px rgba(255,255,255,0.1);   -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.3), inset 0 0 20px 10px rgba(255,255,255,0.1);   -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.3), inset 0 0 20px 10px rgba(255,255,255,0.1);}.jivo-btn.jivo-btn-light{   box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 1px rgba(0,0,0,0.3);   -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 1px rgba(0,0,0,0.3);   -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 1px rgba(0,0,0,0.3);}.jivo-btn:active,.jivo-btn.jivo-btn-light:active{   box-shadow: 0 1px 0px rgba(255,255,255,0.4), inset 0 0 15px rgba(0,0,0,0.2);   -moz-box-shadow: 0 1px 0px rgba(255,255,255,0.4), inset 0 0 15px rgba(0,0,0,0.2);   -webkit-box-shadow: 0 1px 0px rgba(255,255,255,0.4), inset 0 0 15px rgba(0,0,0,0.2);   cursor: pointer;}.jivo-btn:active {   outline: 0;   background-image: none;   -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);   box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);}.jivo-btn-gradient {   background-image: url(//static.jivosite.com/button/white_grad_light.png);   background-repeat: repeat-x;}.jivo-btn-light.jivo-btn-gradient {   background-image: url(//static.jivosite.com/button/white_grad.png);}.jivo-btn-icon {   width:17px;   height: 20px;   background-repeat: no-repeat;   display: inline-block;   vertical-align: middle;   margin-right: 10px;   margin-left: -5px;}.jivo-btn-light {   color: #fff;}..jivo-btn-dark {   color: #222;}
+
+#flagi ul{
+	list-style-type: none;
+	float: right;
+	margin: 0 15px 0 0;
+	padding: 0;
+}
+
+.lang-item{
+	float: left;
+	padding: 2px 10px 0 0;
+}
+
+.block-button-cover{margin-top: 35px;}
+.button-cover {
+	background-clip: border-box;
+    background-color: #f69;
+    border: 1px solid transparent;
+    color: #fff !important;
+    font-size: 13px;
+    font-weight: 700;
+    outline: medium none;
+    padding: 12px 25px;
+    text-transform: uppercase;
+	text-indent:0;
+	text-decoration:none;
+	text-align:center;
+	font-style:normal;
+	height:50px;
+	width:170px;	
+}
+.button-cover:hover {
+	background-color:#f2157d;
+	color: #fff;
+}.button-cover:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
